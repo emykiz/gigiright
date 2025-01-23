@@ -1,0 +1,98 @@
+/* Leave these when switching to tailwindcss */
+html {
+  font-family:"Inter", serif;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+}
+
+.bg-underBanner {
+  background-color: #147cd0;
+}
+
+.img-1 {
+  position: absolute;
+  bottom: 0px; 
+  object-fit: cover;
+  width: 140px;
+  height: auto;
+  right: 0;
+}
+
+.img-2 {
+  position: absolute;
+  bottom: 0px; 
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+}
+
+.hr-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50px;
+  border: none;
+  background-color: #0071ce;
+  color: #fff;
+}
+
+.loader {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.container {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  border: none;
+  border-radius: 50px;
+  /* background-color: #cce3f533; */
+  background-color: transparent;
+}
+input:focus,
+input:active {
+  border: none;
+  outline: none;
+}
+
+/* Leave these when switching to tailwindcss */
